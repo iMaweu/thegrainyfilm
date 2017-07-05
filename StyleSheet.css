@@ -1,0 +1,57 @@
+﻿
+h1, h2, h3, h4, h5 {
+    font-family: sans-serif;
+    color: rgb(22,68,80);
+}
+
+a:link {
+    color: rgb(58,120,237);
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:rebeccapurple;
+}
+
+article{
+    overflow: auto;
+    padding:0em 1em 1em 1em;
+}
+
+article header{
+    background-color: rgba(255,255,255,0.8);
+}
+
+section article {
+    background-color: rgba(255,255,255,0.5);
+}
+
+section{
+    padding:0pc 4pc 2pc 4pc;
+}
+#background2 {
+    background: url(images/background2.png);
+    background-size:150em;
+    background-repeat:repeat;
+
+}
+
+body {
+    background-color: white;
+    padding:0pc 5pc 0pc 5pc;
+}
+
+img{
+    width: 20pc;
+    margin:1em 1em 1em 1em;
+}
+
+p {
+    font-size: 1em;
+    margin: 1em 1em 1em 1em;
+}
+
