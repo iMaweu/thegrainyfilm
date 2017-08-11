@@ -1,7 +1,12 @@
 ﻿
-h1, h2, h3, h4, h5 {
-    font-family: sans-serif;
+h2, h4, h5 {
+    font-family: Roboto 100;
     color: rgb(22,68,80);
+}
+
+.banner {
+  font-family: Baskerville, serif;
+  color: rgb(22,68,80);
 }
 
 a:link {
@@ -13,9 +18,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a:visited {
-    color:rebeccapurple;
-}
 
 article{
     overflow: auto;
@@ -33,12 +35,7 @@ section article {
 section{
     padding:0pc 4pc 2pc 4pc;
 }
-#background2 {
-    background: url(images/background2.png);
-    background-size:150em;
-    background-repeat:repeat;
 
-}
 
 body {
     background-color: white;
@@ -48,6 +45,11 @@ body {
 img{
     width: 20pc;
     margin:1em 1em 1em 1em;
+}
+
+li{
+    display: inline;
+    margin: 10px 10px;
 }
 
 p {
