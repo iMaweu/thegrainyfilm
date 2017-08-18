@@ -24,10 +24,10 @@ img{ width: 20pc; margin: 1em; }
 .imgRigth { float: right; }
 .imgLeft { float: left; }
 
-.navigation li { float: left; font-family: 'Playfair Display'; font-weight: 400; font-size: 20px;}
-.navigation li a {display: block; color: black; padding: 10px 10px;}
-.navigation li a:visited { color: black;}
-.navigation li a:hover { background-color: black; color: white; text-decoration: none;}
+li { float: left; font-family: 'Playfair Display'; font-weight: 400; font-size: 20px;}
+li a {display: block; color: black; padding: 10px 10px;}
+li a:visited { color: black;}
+li a:hover { background-color: black; color: white; text-decoration: none;}
 
 p { font-family: 'Signika'; font-weight: 300; font-size: 18px; letter-spacing: -0.02em; line-height: 1.7em; margin: 0.8em; word-spacing: 0.2em; }
 
