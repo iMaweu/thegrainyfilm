@@ -4,22 +4,23 @@ a:link { color: rgb(58,120,237); text-decoration:none; }
 a:hover { text-decoration: underline; }
 a:visited { color: rgb(58,120,237); text-decoration: none; }
 
-#banner { border-style: solid; border-width: 0 0 2px 0; border- color: black; margin: 50px 0 30px 0; padding: 0 0 5px 0;}
-#bannerText { font-family: 'Signika', sans-serif; font-weight: 300; font-size: 20px; }
+#banner { margin: 50px 0 30px 0; }
+#bannerText {  border-style: solid; border-width: 0 0 2px 0; border-color: black; font-family: 'Signika', sans-serif; font-weight: 300; font-size: 20px; }
 #bannerTitle { font-size: 50px; font-weight: 700; }
 
-body { background-color: white; padding:0 5pc 0 5pc; }
+.siteBody {  padding: 0 5% 0 5%; margin: auto; }
 
-div { margin: 0 0; min-width: 800px; max-width: 1200px; }
+div { margin: 0 0; min-width: 800px; max-width: 1200px;}
 
-div.blogBody { width: 100%; }
-div.blogEntry { border-style: solid; border-width: 0 0 2px 0; border- color: black;}
+div.blogBody { width: 100%;}
+div.blogEntry { border-style: solid; border-width: 0 0 2px 0; border-color: black;}
 div.blogHeader { font-weight: 400; font-size: 20px; width: 100%; }
 
-div.navigation {background-color: white; position: fixed; top: 0; text-decoration: none; width: 1200px;}
+div.navigation {background-color: rgba(255,255,255,0.7); max-width: none; position: fixed; top: 0; text-decoration: none; width: 100%; z-index: 50;}
 
 h1, h2, h3, h4, h5 { font-family: 'Playfair Display', serif; margin: 0; }
 
+/*img{ width: auto; margin: 1em; max-width: 100%; height: auto;  }*/
 img{ width: 20pc; margin: 1em; }
 .imgRigth { float: right; }
 .imgLeft { float: left; }
@@ -29,8 +30,10 @@ li a {display: block; color: black; padding: 10px 10px;}
 li a:visited { color: black;}
 li a:hover { background-color: black; color: white; text-decoration: none;}
 
-p { font-family: 'Signika'; font-weight: 300; font-size: 18px; letter-spacing: -0.02em; line-height: 1.7em; margin: 0.8em; word-spacing: 0.2em; }
+p { font-family: 'Signika', sans-serif; font-weight: 300; font-size: 18px; letter-spacing: -0.02em; line-height: 1.7em; margin: 0.8em; word-spacing: 0.2em; }
 
 section {}
 
 ul { list-style-type: none; margin: 0; padding: 0; }
+
+video { max-height:none; max-width:none; padding: 0 0 0 0; width: 100%; position: fixed;  z-index: 1;}
